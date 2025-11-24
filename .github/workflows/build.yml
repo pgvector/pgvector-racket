@@ -16,5 +16,4 @@ jobs:
           cd pgvector
           make
           sudo make install
-      - run: raco pkg install db-lib
       - run: racket example.rkt
